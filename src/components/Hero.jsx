@@ -80,9 +80,6 @@ export default function Hero() {
             <span className="cursor"></span>
           </div>
           
-          <p className="hero-description" id="heroDesc">
-            Building beautiful, responsive, and user-friendly web experiences with modern frontend technologies.
-          </p>
 
           {/* Social Icons row matching the yellow circle style from the reference */}
           <div className="social-icons-row" id="heroSocials">
