@@ -10,8 +10,6 @@ const projectsData = [
     name: 'ReconAI',
     title: 'ReconAI - Payment Reconciliation',
     image: reconAiImg,
-    shortDesc: 'ReconAI is an AI-powered invoice-to-payment reconciliation system that matches invoices with payments.',
-    longDesc: 'ReconAI reduces manual accounting efforts by identifying whether invoices are paid, partially paid, unpaid, or overdue. The system automatically reconciles bank transactions and invoices using natural language understanding and machine learning. It also provides a comprehensive dashboard, confidence scores, explainable matching reasons, real-time alerts, an interactive query chatbot, and multilingual support to make financial tracking simple and accurate.',
     techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Python', 'AI/ML'],
     link: 'https://example.com/reconai'
   },
@@ -20,8 +18,6 @@ const projectsData = [
     name: 'HireAI',
     title: 'HireAI - Recruitment Platform',
     image: hireAiImg,
-    shortDesc: 'HireAI is an AI-powered recruitment and interview management platform built using the MERN stack.',
-    longDesc: 'HireAI enables recruiters to design customizable hiring workflows, host AI-assisted virtual interviews, and manage candidate assessments seamlessly. The platform evaluates candidate performance on-the-fly and presents insights through a centralized analytics dashboard, keeping the final hiring decision transparent and in human hands. It supports secure, token-based authentication and role-based views.',
     techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'AI Integration', 'JWT Authentication'],
     link: 'https://example.com/hireai'
   },
@@ -30,8 +26,6 @@ const projectsData = [
     name: 'RecipeHub',
     title: 'RecipeHub - Recipe Sharing',
     image: recipeHubImg,
-    shortDesc: 'RecipeHub is a full-stack recipe sharing web application built using React.js, Node.js, Express.js, and MongoDB.',
-    longDesc: 'RecipeHub allows users to register, log in, create, and share culinary recipes with ratings and comments. It implements secure JWT-based authentication and role-based access control where users can edit or delete only their recipes, while administrators hold full system access. Key features include a 5-star rating scale, comments, user profiles, and a robust admin monitor panel.',
     techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT Authentication'],
     link: 'https://example.com/recipehub'
   }
@@ -111,8 +105,6 @@ export default function Projects() {
 
               <div className="modal-body">
                 <h3 className="modal-project-name" id="modalTitle">{selectedProject.title}</h3>
-                
-                <p className="modal-description">{selectedProject.longDesc}</p>
 
                 <div className="modal-tech-stack">
                   <span className="tech-stack-label">Tech Stack:</span>
